@@ -1,0 +1,149 @@
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.text-center{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hide{
+    display: none;
+}
+
+.error{
+    color: red;
+}
+
+#search-text{
+    height: 32px;
+    padding: 0 5px;
+    width: 36%;
+}
+
+#search-btn, #favourites-btn{
+    height: 36px;
+    margin-left: -4px;
+    background-color: #3a5795;
+    color: #fff;
+    border: none;
+    padding: 2px 12px;
+}
+
+#favourites-btn{
+    background-color: #E4E41C;
+}
+
+#results{
+    margin: 25px 0; 
+}
+
+#results .page{ 
+    margin: 2px 25%;
+    padding: 20px;
+    border: 1px solid #3a5795;
+    border-radius: 1px;
+    position: relative;
+}
+
+#results .page:hover, #full-page .close{
+    cursor: pointer;
+    z-index: 10;
+}
+
+#results .favourite{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+
+#results .page img{
+    display: inline-block;
+    width: 15%; 
+    margin-right: 2%;
+    vertical-align: top;
+}
+
+#results .page span{
+    display: inline-block;
+    width: 80%; 
+}
+
+#results .page .category{
+    font-size: 0.9em;
+}
+
+#results .page a{
+    color: #9197a3;
+}
+
+#results .page .likes{
+    color: #9197a3;
+}
+
+#results .page.more{
+    margin: 2px 0;
+}
+
+#full-page{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #fff;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+#full-page .banner{
+    position: relative;
+}
+
+#full-page .banner .cover{
+    width: 95%;
+    height: 25em;
+}
+
+#full-page .close{
+    position: fixed;
+    right: 1.5%;
+    top: 10px;
+    font-weight: bold;
+}
+
+#full-page .banner .breif{
+    position: absolute;
+    bottom: -60px;
+    left: 50px;
+    width: 25%;
+    text-align: left;
+}
+
+#full-page .banner .breif img{
+    width: 30%;
+    display: inline-block;
+    margin-right: 2%;
+    z-index: 100;
+}
+
+#full-page .banner .breif > span{
+    width: 65%;
+    display: inline-block;
+}
+
+#full-page .more{
+    margin: 25px 2.5%;
+}
+
+#full-page dt{
+    font-weight: bold;
+    margin-top: 5px;
+}
