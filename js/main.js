@@ -1,6 +1,6 @@
 
 var GRAPH_API = "https://graph.facebook.com/",
-	ACCESS_TOKEN = "965964813472616|e7fe980ad512dc232d0fb1a3bd449193";
+	ACCESS_TOKEN = "<token>";
 
 var results = [],
 	favourites = [];
